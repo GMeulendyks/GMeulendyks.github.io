@@ -442,7 +442,7 @@
 						<div class="witr_image_title">
 							<img src="assets/images/bar.png" alt="image">
 						</div>
-                        <a href="mailto:gmeul.public@gmail.com">gmeul.public@gmail.com</a>
+                        <label>Disclaimer: Your email will be sent using formspree.</label>
 					</div>
 				</div>
 			</div>
@@ -450,32 +450,20 @@
 				<div class="apartment_area">
 					<div class="witr_apartment_form">
 						<div class="wpcf7" >
-							<form action="mail.php" method="post" id="contact-form">
-								<div class="form-row">
-									<div class="form-group col-md-6">
-										<input type="text" name="name" placeholder="Name*">
+                            <form action="https://formspree.io/f/xknyblzq" method="POST">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+										<input name="Name" type="text" placeholder="Your Name*">
 									</div>
 									<div class="form-group col-md-6">
-										<input type="email" name="email" placeholder="Email*">
+										<input name="Email" type="email" placeholder="Your Email*">
 									</div>
 								</div>
-								<div class="form-row">
-									<div class="form-group col-md-6">
-										<input type="number" name="number" placeholder="Phone*">
-									</div>
-									<div class="form-group col-md-6">
-										<input type="text" name="subject" placeholder="Subject*">
-									</div>
+                                <div class="form-group text-center">
+									<textarea name="Message" placeholder="Your Message*"></textarea>
+                                    <button type="submit" class="btn">Send Message</button>
 								</div>
-								<div class="form-group text-center">
-									<textarea name="comment" placeholder="Message*"></textarea>
-									<button type="submit" name="ok" class="btn">Send Message</button>
-								</div>
-
-								<div class="col-lg-12 text-center">
-									<p class="form-messege"></p>
-								</div>
-							</form>
+                            </form>
 						</div>
 					</div>
 				</div>
