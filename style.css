@@ -9,6 +9,9 @@
 .orange-text {
     color: #fa4006;
 }
+.black-background {
+    background: #000000;
+}
 
 /*theme css*/
 a{
@@ -100,7 +103,7 @@ p.form-messege {
      line-height:1;
 }
  .witr_section_title_inner h1,
- .witr_section_title_inner h2, 
+ .witr_section_title_inner h2,
  .witr_section_title_inner h3{
      font-size: 40px;
      margin: auto;
@@ -111,7 +114,7 @@ p.form-messege {
      margin-right: 0px;
 }
  .text-left.witr_section_title_inner h1,
- .text-left.witr_section_title_inner h2, 
+ .text-left.witr_section_title_inner h2,
  .text-left.witr_section_title_inner h3{
      margin-left: 0px;
 }
@@ -134,7 +137,7 @@ p.form-messege {
     color: #FFFFFF;
 }
  .witr_section_title_inner p span a,
- .witr_section_title_inner p span, 
+ .witr_section_title_inner p span,
  .witr_section_title_inner h1 span,
  .witr_section_title_inner h2 span,
  .witr_section_title_inner h3 span{
@@ -348,7 +351,7 @@ p.form-messege {
 }
 .liton-header-top {
     background: #fa4006;
-	
+
 }
  .liton-header-top {
 	background-repeat: no-repeat;
@@ -1378,7 +1381,7 @@ textarea, input {
 /* new banner slider css */
 .animate_image_height,
 .animate_banner_image_area{
-    position: relative;	
+    position: relative;
 }
 .animate_banner_slider.banner-content {
     position: absolute;
@@ -1407,9 +1410,9 @@ textarea, input {
 .animate_banner_image_area .slick-next {
     right: 15px;
 }
-.animate_banner_image_area:hover .slick-prev, 
+.animate_banner_image_area:hover .slick-prev,
 .animate_banner_image_area:hover .slick-next{
-	 opacity:1; 
+	 opacity:1;
  }
 
 
@@ -1486,9 +1489,9 @@ textarea, input {
     line-height: 29px;
 }
  .all_list_color {
-    text-align: left; 
+    text-align: left;
     border-style: default;
-    margin: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
  .all_list_color ul li a {
@@ -1610,7 +1613,7 @@ textarea, input {
     margin-top: 50px;
 }
  .witr_progress-style2 .progress-bar {
-   position: relative; 
+   position: relative;
     text-align: left;
     line-height: 4px;
     border-radius: 0;
@@ -1724,7 +1727,7 @@ textarea, input {
     /* padding-right: 2px; */
     padding-top: 0px;
 	color:#fff;
-} 
+}
 /*===================== mettle PORTFOLIO AREA CSS =========================*/
 .portfolio_nav {
     padding: 0px 0 40px;
@@ -2003,7 +2006,7 @@ textarea, input {
      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
      top: 50%;
      opacity: 1;
-} 
+}
  .portfolio_area {
     padding: 115px 0px 100px;
 	background-color: #0D0D0D;
@@ -2141,12 +2144,12 @@ textarea, input {
 }
 .execllent_toggol {
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
 }
 .em_crating{
 	display: flex;
-	 align-items: center; 
+	 align-items: center;
 }
 .test-part {
     display: inline-block;
@@ -3340,7 +3343,7 @@ button:focus {
      margin-bottom: 28px;
      margin-top: 28px;
      position: relative;
-    font-size: 24px;	 
+    font-size: 24px;
 }
  .footer-middle .widget h2:before {
 }
@@ -3451,4 +3454,3 @@ button:focus {
     color: #ffffff;
 }
 /*======================== END FOOTER BOTTOM AREA CSS =========================*/
-
